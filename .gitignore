@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.env
+*.log
+*.db
+*.sqlite3
+
+# Node (Vue.js)
+node_modules/
+dist/
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de compilação
+*.class
+*.jar
+*.war
