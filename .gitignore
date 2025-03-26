@@ -28,3 +28,9 @@ Thumbs.db
 *.class
 *.jar
 *.war
+
+# Arquivos específicos do teste
+Teste_Vitor_Arruda.csv
+Teste_Vitor_Arruda.zip
+anexos.zip
+Anexos/
