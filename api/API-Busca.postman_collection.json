@@ -1,0 +1,505 @@
+{
+	"info": {
+		"_postman_id": "96826fa6-410b-4176-8240-154b72089dd0",
+		"name": "API-Busca",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43516706",
+		"_collection_link": "https://vitorarruda.postman.co/workspace/Vitor-Arruda's-Workspace~5262d2c3-fee0-4b3d-87be-ffab44a74038/collection/43516706-96826fa6-410b-4176-8240-154b72089dd0?action=share&source=collection_link&creator=43516706"
+	},
+	"item": [
+		{
+			"name": "AD SALUTE",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/busca?q=AD SALUTE&limit=10&page=1",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"busca"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "AD SALUTE"
+						},
+						{
+							"key": "limit",
+							"value": "10"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Exemplo - AD SALUTE",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/busca?q=AD SALUTE&limit=10&page=1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"busca"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "AD SALUTE"
+								},
+								{
+									"key": "limit",
+									"value": "10"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.11.9"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 27 Mar 2025 04:06:43 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "716"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"Bairro\": \"CENTRO\",\n        \"CEP\": \"20070020\",\n        \"CNPJ\": \"10458298000131\",\n        \"Cargo_Representante\": \"ADMINISTRADOR\",\n        \"Cidade\": \"RIO DE JANEIRO\",\n        \"Complemento\": \"SALA 2901\",\n        \"DDD\": \"21\",\n        \"Data_Registro_ANS\": \"2013-06-13\",\n        \"Endereco_eletronico\": \"LEONARDO@UNIMEDICASAUDE.COM\",\n        \"Fax\": \"Não informado\",\n        \"Logradouro\": \"RUA BUENOS AIRES\",\n        \"Modalidade\": \"ADMINISTRADORA DE BENEFICIOS\",\n        \"Nome_Fantasia\": \"AD SALUTE\",\n        \"Numero\": \"68\",\n        \"Razao_Social\": \"AD SALUTE ADMINISTRADORA DE BENEFICIOS LTDA\",\n        \"Regiao_de_Comercializacao\": \"5\",\n        \"Registro_ANS\": \"418901\",\n        \"Representante\": \"JOÃO CARMO DA SILVEIRA\",\n        \"Telefone\": \"35531692\",\n        \"UF\": \"RJ\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "ANS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/busca?q=304531&limit=10&page=1",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"busca"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "304531"
+						},
+						{
+							"key": "limit",
+							"value": "10"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Exemplo - ANS",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/busca?q=304531&limit=10&page=1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"busca"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "304531"
+								},
+								{
+									"key": "limit",
+									"value": "10"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.11.9"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 27 Mar 2025 04:07:12 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "741"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"Bairro\": \"CENTRO\",\n        \"CEP\": \"36010360\",\n        \"CNPJ\": \"17143876000190\",\n        \"Cargo_Representante\": \"DIRETORA ADMINISTRATIVA E FINANCEIRA\",\n        \"Cidade\": \"JUIZ DE FORA\",\n        \"Complemento\": \"Não informado\",\n        \"DDD\": \"32\",\n        \"Data_Registro_ANS\": \"1998-12-22\",\n        \"Endereco_eletronico\": \"amesaude24h@terra.com.br\",\n        \"Fax\": \"32155201\",\n        \"Logradouro\": \"RUA SAMPAIO\",\n        \"Modalidade\": \"MEDICINA DE GRUPO\",\n        \"Nome_Fantasia\": \"AME-SISTEMA DE SAUDE 24 HORAS\",\n        \"Numero\": \"376\",\n        \"Razao_Social\": \"AME-ASSISTENCIA MEDICA A EMPRESAS LTDA\",\n        \"Regiao_de_Comercializacao\": \"6\",\n        \"Registro_ANS\": \"304531\",\n        \"Representante\": \"REGINA MARIA AGUIAR DE SOUZA FELLET\",\n        \"Telefone\": \"21015600\",\n        \"UF\": \"MG\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Cidade",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/busca?q=Rio+de+janeiro&limit=10&page=1",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"busca"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Rio+de+janeiro"
+						},
+						{
+							"key": "limit",
+							"value": "10"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Exemplo - Cidade",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/busca?q=Rio+de+janeiro&limit=10&page=1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"busca"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "Rio+de+janeiro"
+								},
+								{
+									"key": "limit",
+									"value": "10"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.11.9"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 27 Mar 2025 04:07:20 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "7423"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"Bairro\": \"BARRA DA TIJUCA\",\n        \"CEP\": \"22775056\",\n        \"CNPJ\": \"17687511000126\",\n        \"Cargo_Representante\": \"ADMINISTRADOR\",\n        \"Cidade\": \"RIO DE JANEIRO\",\n        \"Complemento\": \"BLOCO 4, SALA 403\",\n        \"DDD\": \"Não informado\",\n        \"Data_Registro_ANS\": \"2014-11-13\",\n        \"Endereco_eletronico\": \"contato@abplus.com.br\",\n        \"Fax\": \"Não informado\",\n        \"Logradouro\": \"AVENIDA JOSÉ DA SILVA NETO\",\n        \"Modalidade\": \"ADMINISTRADORA DE BENEFICIOS\",\n        \"Nome_Fantasia\": \"Não informado\",\n        \"Numero\": \"200\",\n        \"Razao_Social\": \"ABPLUS ADMINISTRADORA DE BENEFICIOS LTDA.\",\n        \"Regiao_de_Comercializacao\": \"6\",\n        \"Registro_ANS\": \"419621\",\n        \"Representante\": \"ROBERTO CARLOS MACHADO RODRIGUES\",\n        \"Telefone\": \"Não informado\",\n        \"UF\": \"RJ\"\n    },\n    {\n        \"Bairro\": \"CENTRO\",\n        \"CEP\": \"20070020\",\n        \"CNPJ\": \"10458298000131\",\n        \"Cargo_Representante\": \"ADMINISTRADOR\",\n        \"Cidade\": \"RIO DE JANEIRO\",\n        \"Complemento\": \"SALA 2901\",\n        \"DDD\": \"21\",\n        \"Data_Registro_ANS\": \"2013-06-13\",\n        \"Endereco_eletronico\": \"LEONARDO@UNIMEDICASAUDE.COM\",\n        \"Fax\": \"Não informado\",\n        \"Logradouro\": \"RUA BUENOS AIRES\",\n        \"Modalidade\": \"ADMINISTRADORA DE BENEFICIOS\",\n        \"Nome_Fantasia\": \"AD SALUTE\",\n        \"Numero\": \"68\",\n        \"Razao_Social\": \"AD SALUTE ADMINISTRADORA DE BENEFICIOS LTDA\",\n        \"Regiao_de_Comercializacao\": \"5\",\n        \"Registro_ANS\": \"418901\",\n        \"Representante\": \"JOÃO CARMO DA SILVEIRA\",\n        \"Telefone\": \"35531692\",\n        \"UF\": \"RJ\"\n    },\n    {\n        \"Bairro\": \"CENTRO\",\n        \"CEP\": \"20040006\",\n        \"CNPJ\": \"37201454000130\",\n        \"Cargo_Representante\": \"SÓCIA ADMINISTRADORA\",\n        \"Cidade\": \"RIO DE JANEIRO\",\n        \"Complemento\": \"15º ANDAR  SALA 1501\",\n        \"DDD\": \"21\",\n        \"Data_Registro_ANS\": \"2020-09-03\",\n        \"Endereco_eletronico\": \"contato@adress.com.br\",\n        \"Fax\": \"Não informado\",\n        \"Logradouro\": \"AVENIDA RIO BRANCO\",\n        \"Modalidade\": \"ADMINISTRADORA DE BENEFICIOS\",\n        \"Nome_Fantasia\": \"ADRESS\",\n        \"Numero\": \"125\",\n        \"Razao_Social\": \"ADRESS ADMINISTRADORA DE BENEFICIOS LTDA\",\n        \"Regiao_de_Comercializacao\": \"6\",\n        \"Registro_ANS\": \"422347\",\n        \"Representante\": \"LAIR ISABEL BOHRER DIEDAM\",\n        \"Telefone\": \"22524066\",\n        \"UF\": \"RJ\"\n    },\n    {\n        \"Bairro\": \"CENTRO\",\n        \"CEP\": \"21040006\",\n        \"CNPJ\": \"10387254000168\",\n        \"Cargo_Representante\": \"DIRETORA PRESIDENTE\",\n        \"Cidade\": \"RIO DE JANEIRO\",\n        \"Complemento\": \"10ª ANDAR - PARTE\",\n        \"DDD\": \"21\",\n        \"Data_Registro_ANS\": \"2010-12-20\",\n        \"Endereco_eletronico\": \"RODRIGO.PEIXOTO@ALACORO.COM.BR\",\n        \"Fax\": \"Não informado\",\n        \"Logradouro\": \"AVENIDA RIO BRANCO\",\n        \"Modalidade\": \"ADMINISTRADORA DE BENEFICIOS\",\n        \"Nome_Fantasia\": \"Não informado\",\n        \"Numero\": \"131\",\n        \"Razao_Social\": \"ALACORO CASF ASSOCIACAO CLUBE DE BENEFICIOS PESSOAIS E EMPRESARIAIS\",\n        \"Regiao_de_Comercializacao\": \"6\",\n        \"Registro_ANS\": \"417742\",\n        \"Representante\": \"ANADIA BIENHACHEWSKI FERREIRA ALVES\",\n        \"Telefone\": \"25054500\",\n        \"UF\": \"RJ\"\n    },\n    {\n        \"Bairro\": \"TAQUARA\",\n        \"CEP\": \"22740362\",\n        \"CNPJ\": \"56307500000125\",\n        \"Cargo_Representante\": \"SOCIO ADMINISTRADOR\",\n        \"Cidade\": \"RIO DE JANEIRO\",\n        \"Complemento\": \"Não informado\",\n        \"DDD\": \"21\",\n        \"Data_Registro_ANS\": \"2024-12-02\",\n        \"Endereco_eletronico\": \"leonardo@unimedicasaude.com\",\n        \"Fax\": \"Não informado\",\n        \"Logradouro\": \"ESTRADA DO TINDIBA\",\n        \"Modalidade\": \"MEDICINA DE GRUPO\",\n        \"Nome_Fantasia\": \"AMAZIL\",\n        \"Numero\": \"1630\",\n        \"Razao_Social\": \"AMAZIL ASSISTENCIA MEDICA DO BRASIL LTDA\",\n        \"Regiao_de_Comercializacao\": \"Não informado\",\n        \"Registro_ANS\": \"424234\",\n        \"Representante\": \"ADEBEEL DE SOUSA AVES\",\n        \"Telefone\": \"999434833\",\n        \"UF\": \"RJ\"\n    },\n    {\n        \"Bairro\": \"JACAREPAGUA\",\n        \"CEP\": \"22745270\",\n        \"CNPJ\": \"04257073000114\",\n        \"Cargo_Representante\": \"SOCIA GERENTE\",\n        \"Cidade\": \"RIO DE JANEIRO\",\n        \"Complemento\": \"Não informado\",\n        \"DDD\": \"21\",\n        \"Data_Registro_ANS\": \"2001-03-16\",\n        \"Endereco_eletronico\": \"amep.operadora@uol.com.br\",\n        \"Fax\": \"Não informado\",\n        \"Logradouro\": \"RUA ARAGUAIA\",\n        \"Modalidade\": \"MEDICINA DE GRUPO\",\n        \"Nome_Fantasia\": \"AMEP FREGUESIA OPERADORA DE PLANOS DE SAUDE LTDA\",\n        \"Numero\": \"13\",\n        \"Razao_Social\": \"AMEP FREGUESIA OPERADORA DE PLANO DE SAUDE LTDA\",\n        \"Regiao_de_Comercializacao\": \"4\",\n        \"Registro_ANS\": \"413330\",\n        \"Representante\": \"ANA MARLI VIDEIRA PEIXOTO FAZZINI\",\n        \"Telefone\": \"39104000\",\n        \"UF\": \"RJ\"\n    },\n    {\n        \"Bairro\": \"SANTA CRUZ\",\n        \"CEP\": \"23510006\",\n        \"CNPJ\": \"68668045000172\",\n        \"Cargo_Representante\": \"REPRESENTANTE\",\n        \"Cidade\": \"RIO DE JANEIRO\",\n        \"Complemento\": \"Não informado\",\n        \"DDD\": \"21\",\n        \"Data_Registro_ANS\": \"1999-02-24\",\n        \"Endereco_eletronico\": \"relacionamento.ans@cemeru.com\",\n        \"Fax\": \"Não informado\",\n        \"Logradouro\": \"RUA FELIPE CARDOSO\",\n        \"Modalidade\": \"MEDICINA DE GRUPO\",\n        \"Nome_Fantasia\": \"GRUPO CEMERU SAUDE\",\n        \"Numero\": \"1025\",\n        \"Razao_Social\": \"AMESC - ASSOCIACAO MEDICA ESPIRITA CRISTA\",\n        \"Regiao_de_Comercializacao\": \"4\",\n        \"Registro_ANS\": \"401081\",\n        \"Representante\": \"MAURO GOMES DIAS \",\n        \"Telefone\": \"24140013\",\n        \"UF\": \"RJ\"\n    },\n    {\n        \"Bairro\": \"CENTRO\",\n        \"CEP\": \"20020906\",\n        \"CNPJ\": \"41077489000187\",\n        \"Cargo_Representante\": \"SOCIO - ADMINISTRADOR\",\n        \"Cidade\": \"RIO DE JANEIRO\",\n        \"Complemento\": \"Grupo 2501\",\n        \"DDD\": \"21\",\n        \"Data_Registro_ANS\": \"2021-04-06\",\n        \"Endereco_eletronico\": \"sidney.junior@amplasaude.com\",\n        \"Fax\": \"Não informado\",\n        \"Logradouro\": \"Av. Nilo Peçanha\",\n        \"Modalidade\": \"MEDICINA DE GRUPO\",\n        \"Nome_Fantasia\": \"AMPLA\",\n        \"Numero\": \"50\",\n        \"Razao_Social\": \"AMPLA PLANOS DE SAUDE LTDA\",\n        \"Regiao_de_Comercializacao\": \"4\",\n        \"Registro_ANS\": \"422720\",\n        \"Representante\": \"SIDNEY STORCH DUTRA JUNIOR\",\n        \"Telefone\": \"39235406\",\n        \"UF\": \"RJ\"\n    },\n    {\n        \"Bairro\": \"CENTRO\",\n        \"CEP\": \"20071000\",\n        \"CNPJ\": \"35808498000106\",\n        \"Cargo_Representante\": \"SOCIO ADMINISTRADOR/REPRE\",\n        \"Cidade\": \"RIO DE JANEIRO\",\n        \"Complemento\": \"SALA 1501\",\n        \"DDD\": \"Não informado\",\n        \"Data_Registro_ANS\": \"2021-07-29\",\n        \"Endereco_eletronico\": \"contato@aplusadministradora.com.br\",\n        \"Fax\": \"Não informado\",\n        \"Logradouro\": \"AVENIDA PRESIDENTE VARGAS\",\n        \"Modalidade\": \"ADMINISTRADORA DE BENEFICIOS\",\n        \"Nome_Fantasia\": \"Não informado\",\n        \"Numero\": \"534\",\n        \"Razao_Social\": \"APLUS ADMINISTRADORA DE BENEFICIOS LTDA\",\n        \"Regiao_de_Comercializacao\": \"Não informado\",\n        \"Registro_ANS\": \"422932\",\n        \"Representante\": \"GABRIEL SILVA RODRIGUES\",\n        \"Telefone\": \"Não informado\",\n        \"UF\": \"RJ\"\n    },\n    {\n        \"Bairro\": \"CENTRO\",\n        \"CEP\": \"20034900\",\n        \"CNPJ\": \"31240963000196\",\n        \"Cargo_Representante\": \"DIRETOR PRESIDENTE\",\n        \"Cidade\": \"RIO DE JANEIRO\",\n        \"Complemento\": \"SLJ 211,212,213\",\n        \"DDD\": \"21\",\n        \"Data_Registro_ANS\": \"1999-01-19\",\n        \"Endereco_eletronico\": \"appai@appai.org.br\",\n        \"Fax\": \"25320563\",\n        \"Logradouro\": \"RUA SENADOR DANTAS\",\n        \"Modalidade\": \"MEDICINA DE GRUPO\",\n        \"Nome_Fantasia\": \"APPAI\",\n        \"Numero\": \"117\",\n        \"Razao_Social\": \"ASSOCIACAO BENEFICENTE DOS PROFESSORES PUBLICOS ATIVOS E INATIVOS DO RIO DE JANEIRO - APPAI\",\n        \"Regiao_de_Comercializacao\": \"4\",\n        \"Registro_ANS\": \"382540\",\n        \"Representante\": \"JULIO CESAR DA COSTA\",\n        \"Telefone\": \"31473242\",\n        \"UF\": \"RJ\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "CNPJ",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/busca?q=17687511000126&limit=10&page=1",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"busca"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "17687511000126"
+						},
+						{
+							"key": "limit",
+							"value": "10"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Exemplo - CNPJ",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/busca?q=17687511000126&limit=10&page=1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"busca"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "17687511000126"
+								},
+								{
+									"key": "limit",
+									"value": "10"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.11.9"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 27 Mar 2025 04:07:28 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "781"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"Bairro\": \"BARRA DA TIJUCA\",\n        \"CEP\": \"22775056\",\n        \"CNPJ\": \"17687511000126\",\n        \"Cargo_Representante\": \"ADMINISTRADOR\",\n        \"Cidade\": \"RIO DE JANEIRO\",\n        \"Complemento\": \"BLOCO 4, SALA 403\",\n        \"DDD\": \"Não informado\",\n        \"Data_Registro_ANS\": \"2014-11-13\",\n        \"Endereco_eletronico\": \"contato@abplus.com.br\",\n        \"Fax\": \"Não informado\",\n        \"Logradouro\": \"AVENIDA JOSÉ DA SILVA NETO\",\n        \"Modalidade\": \"ADMINISTRADORA DE BENEFICIOS\",\n        \"Nome_Fantasia\": \"Não informado\",\n        \"Numero\": \"200\",\n        \"Razao_Social\": \"ABPLUS ADMINISTRADORA DE BENEFICIOS LTDA.\",\n        \"Regiao_de_Comercializacao\": \"6\",\n        \"Registro_ANS\": \"419621\",\n        \"Representante\": \"ROBERTO CARLOS MACHADO RODRIGUES\",\n        \"Telefone\": \"Não informado\",\n        \"UF\": \"RJ\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "NomeFantasia",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/busca?q=ADRESS&limit=10&page=1",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"busca"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "ADRESS"
+						},
+						{
+							"key": "limit",
+							"value": "10"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Exemplo - NomeFantasia",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/busca?q=ADRESS&limit=10&page=1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"busca"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "ADRESS"
+								},
+								{
+									"key": "limit",
+									"value": "10"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.11.9"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 27 Mar 2025 04:07:35 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "733"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"Bairro\": \"CENTRO\",\n        \"CEP\": \"20040006\",\n        \"CNPJ\": \"37201454000130\",\n        \"Cargo_Representante\": \"SÓCIA ADMINISTRADORA\",\n        \"Cidade\": \"RIO DE JANEIRO\",\n        \"Complemento\": \"15º ANDAR  SALA 1501\",\n        \"DDD\": \"21\",\n        \"Data_Registro_ANS\": \"2020-09-03\",\n        \"Endereco_eletronico\": \"contato@adress.com.br\",\n        \"Fax\": \"Não informado\",\n        \"Logradouro\": \"AVENIDA RIO BRANCO\",\n        \"Modalidade\": \"ADMINISTRADORA DE BENEFICIOS\",\n        \"Nome_Fantasia\": \"ADRESS\",\n        \"Numero\": \"125\",\n        \"Razao_Social\": \"ADRESS ADMINISTRADORA DE BENEFICIOS LTDA\",\n        \"Regiao_de_Comercializacao\": \"6\",\n        \"Registro_ANS\": \"422347\",\n        \"Representante\": \"LAIR ISABEL BOHRER DIEDAM\",\n        \"Telefone\": \"22524066\",\n        \"UF\": \"RJ\"\n    }\n]"
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://127.0.0.1:5000",
+			"type": "string"
+		}
+	]
+}
