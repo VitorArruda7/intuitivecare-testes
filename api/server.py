@@ -1,9 +1,11 @@
 import pandas as pd
 import numpy as np
+import json
 import unicodedata
-from flask import Flask, request, jsonify
+from flask import Flask, request, Response, jsonify
 from flask_cors import CORS
 from fuzzywuzzy import process
+
 
 app = Flask(__name__)
 CORS(app)
@@ -60,7 +62,10 @@ df_operadoras = load_data()
 @app.route('/busca', methods=['GET'])
 def buscar_operadoras():
     if df_operadoras is None:
-        return jsonify({"erro": "Dados não carregados"}), 500
+        return Response(
+		json.dumps(resultados,ensure_ascii=False),
+		content_type='application/json; charset=utf-8'
+		)
 
     # Parâmetros da requisição
     consulta = request.args.get('q', '').strip()
@@ -100,7 +105,15 @@ def buscar_operadoras():
             if pd.isna(valor) or valor.strip() == '':
                 resultado[chave] = 'Não informado'
 
-    return jsonify(resultados)
+    return Response(
+	json.dumps(resultados, ensure_ascii=False),
+	content_type='application/json; charset=utf-8'
+	)
+@app.route('/')
+def home():
+    return jsonify({"mensagem": "API de busca de operadoras está rodando!"})
+
+
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+    app.run(host='0.0.0.0', port=5000, debug=True)
